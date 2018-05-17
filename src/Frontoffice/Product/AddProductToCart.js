@@ -9,13 +9,12 @@ module.exports = {
   'Add product to cart and check modal window': function (browser) {
     browser
       .click('div.productContainer > div.mainDetails > div.productSpecs > div.buttonContainer')
-      .pause(2000)
+      .pause(1000)
       .waitForElementVisible('#showModal_cart', 1000)
   },
 
   'Close modal window and check cart quantity': function (browser) {
     browser
-      .click('div.productContainer > div.mainDetails > div.productSpecs > div.buttonContainer')
       .click('#showModal_cart .modalClose')
       .assert.containsText('.bottomBar .cart .quantity', '1')
       .end();
