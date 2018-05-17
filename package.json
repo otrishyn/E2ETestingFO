@@ -2,5 +2,8 @@
   "dependencies": {
     "nightwatch": "^0.9.21",
     "selenium-standalone": "^6.14.1"
+  },
+  "scripts": {
+    "e2e-test": "nightwatch"
   }
 }
