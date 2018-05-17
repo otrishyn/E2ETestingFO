@@ -10,7 +10,7 @@ module.exports = {
   'Go to product page' : function (browser) {
     browser
     .click('.productCards > .cardContainer > .productCard .productImage > .image > a')
-    .pause(5000)
+    .pause(2000)
     .assert.containsText('#productomschrijving', 'PRODUCTOMSCHRIJVING')
     .end();
   }
