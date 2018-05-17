@@ -8,12 +8,12 @@
 
   "selenium" : {
     "start_process" : false,
-    "server_path" : ".bin/selenium-server/3.8.1-server.jar",
+    "server_path" : "bin/selenium-server/3.8.1-server.jar",
     "log_path" : "var/log",
     "port" : 4444,
     "cli_args" : {
-      "webdriver.chrome.driver" : ".bin/chromedriver/2.37-x64-chromedriver",
-      "webdriver.gecko.driver" : ".bin/geckodriver/0.20.0-x64-geckodriver",
+      "webdriver.chrome.driver" : "bin/chromedriver/2.37-x64-chromedriver",
+      "webdriver.gecko.driver" : "bin/geckodriver/0.20.0-x64-geckodriver",
       "webdriver.edge.driver" : ""
     }
   },

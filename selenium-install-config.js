@@ -21,7 +21,7 @@ selenium.install({
       baseURL: 'https://selenium-release.storage.googleapis.com',
     }
   },
-  basePath: path.resolve(process.cwd(), '.bin'),
+  basePath: path.resolve(process.cwd(), 'bin'),
 }, function(error, response){
   console.log('---> completed downloading');
 
